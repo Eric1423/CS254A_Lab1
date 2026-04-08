@@ -74,7 +74,7 @@ fi
 # ---- Step 6: Run baseline test ----
 echo ""
 echo "[6/6] Running baseline SGEMM test..."
-./ci/blackbox.sh --driver=simx --cores=1 --app=sgemm --args="-n16"
+./ci/blackbox.sh --driver=simx --cores=1 --app=sgemm --args="-n64"
  
 echo ""
 echo "============================================="
